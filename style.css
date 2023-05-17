@@ -19,9 +19,9 @@ h1 {
   flex-direction: column;
   row-gap: 20px;
   padding: 1rem;
-  height: 10px;
+  height: 20px;
   width: 100px;
-  color: #ebc4ba;
+  color: #00203FFF;
   border-radius: 5px;
   cursor: pointer;
   border: 1px solid;
@@ -36,7 +36,7 @@ h1 {
 
 .proj__caixa:hover {
   cursor: default;
-  box-shadow: 0 0 10px 2px #ebc4ba;
+  box-shadow: 0 0 10px 2px #00203FFF;
 }
 
 .proj__content-title {
@@ -48,7 +48,7 @@ h1 {
 .title {
   display: flex;
   font-family: Lato, sans-serif; 
-  color: #ebc4ba; 
+  color: #00203FFF; 
   font-size: 5.5vmin; 
   font-weight: 500; 
   letter-spacing: 0.05em;
@@ -74,7 +74,7 @@ h1 {
 
 
 .proj__text{
-  color: #ebc4ba; 
+  color: #00203FFF; 
   font-family: Lato, sans-serif; 
   font-size: 18px;
 }
