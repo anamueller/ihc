@@ -20,6 +20,7 @@ h1 {
   height: 450px;
   justify-content: center;
   align-items: center;
+  background-color: red;
 }
 
 .methods-box__text {
@@ -27,6 +28,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: yellow;
 }
 
 .methods-box__image {
