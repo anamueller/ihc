@@ -6,6 +6,38 @@ h1 {
   font-family: Lato, sans-serif; 
 }
 
+.methods-box {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px 0px 20px;
+  column-gap: 0px;
+  align-items: center;
+}
+
+.methods-box__image-container {
+  flex: 1;
+  display: flex;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.methods-box__text {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  color: #ebc4ba;
+  flex-direction: column;
+  font-family: Lato, sans-serif;
+  font-size: 3vmin;
+}
+
+.methods-box__image {
+  width: 400px;
+  height: 400px;
+}
+
 .proj {
   display: flex;
   flex-direction: row;
@@ -59,4 +91,10 @@ h1 {
   letter-spacing: 0.05em;
   justify-content: center;
   text-align: center;
+}
+
+.paragraph{
+  color: #00203FFF; 
+  font-family: Lato, sans-serif; 
+  justify-content: center;
 }
