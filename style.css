@@ -4,3 +4,34 @@ body {
 h1 {
   color: #00203FFF;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+} 
+
+.container__box {
+  width: 130px;
+  height: 130px;
+  color: #ebc4ba;
+  cursor: pointer;
+  box-shadow: 0 0 10px 2px #ebc4ba;
+}
+
+.container__box.reactive {
+  box-shadow: none;
+}
+
+.container__box.reactive:hover {
+  box-shadow: 0 0 10px 2px #ebc4ba;
+}
+
+.container__box-image{
+  width: 70px;
+  height: 70px;
+  justify-content: center;
+}
