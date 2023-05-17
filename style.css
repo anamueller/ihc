@@ -35,3 +35,22 @@ h1 {
   height: 70px;
   justify-content: center;
 }
+
+.title {
+  font-family: Lato, sans-serif; 
+  color: #ebc4ba; 
+  font-size: 5.5vmin; 
+  font-weight: 500; 
+  letter-spacing: 0.05em;
+  justify-content: center;
+  text-align: center;
+}
+
+.purple-title {
+  font-family: Lato, sans-serif; 
+  color: #bc00dd; 
+  font-size: 5.5vmin; 
+  font-weight: 500; 
+  letter-spacing: 0.05em;
+  justify-content: center;
+}
