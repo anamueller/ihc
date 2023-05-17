@@ -32,6 +32,8 @@ h1 {
   flex-direction: column;
   flex: 10;
   row-gap: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
 .proj__caixa:hover {
