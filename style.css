@@ -11,6 +11,7 @@ h1 {
   flex-direction: row;
   column-gap: 0px;
   align-items: center;
+  background-color: green;
 }
 
 .methods-box__image-container {
